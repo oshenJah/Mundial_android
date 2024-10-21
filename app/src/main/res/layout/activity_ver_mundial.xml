@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerMundial">
+
+    <TextView
+        android:id="@+id/texto_vermundial_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Fase de Grupos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tabla_vermundial_grupo"
+        android:layout_width="409dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="248dp"
+        android:padding="16dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_1"
+        app:layout_constraintVertical_bias="0.266">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jugador" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selección" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puntos" />
+        </TableRow>
+
+        <!-- Fila 2 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/jugadorvermundial1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text=" a" />
+
+            <TextView
+                android:id="@+id/seleccionvermundial1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text=" a" />
+
+            <TextView
+                android:id="@+id/ptsvermundial1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a " />
+        </TableRow>
+
+        <!-- Fila 3 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/jugadorvermundial2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a " />
+
+            <TextView
+                android:id="@+id/seleccionvermundial2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+
+            <TextView
+                android:id="@+id/ptsvermundial2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+        </TableRow>
+
+        <!-- Fila 4 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/jugadorvermundial3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+
+            <TextView
+                android:id="@+id/seleccionvermundial3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+
+            <TextView
+                android:id="@+id/ptsvermundial3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+        </TableRow>
+
+        <!-- Fila 5 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/jugadorvermundial4"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+
+            <TextView
+                android:id="@+id/seleccionvermundial4"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a" />
+
+            <TextView
+                android:id="@+id/ptsvermundial4"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+
+                android:padding="8dp"
+                android:text="a " />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/texto_vermundial_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Octavos de Final"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabla_vermundial_grupo" />
+
+    <TextView
+        android:id="@+id/octavos_vermundial_1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+
+        android:padding="15dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="a"
+        android:hint="Selección"
+        app:layout_constraintEnd_toStartOf="@+id/texto_vermundial_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_2" />
+
+    <TextView
+        android:id="@+id/texto_vermundial_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Vs"
+        app:layout_constraintEnd_toStartOf="@+id/octavos_vermundial_2"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_2" />
+
+    <TextView
+        android:id="@+id/texto_vermundial_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="12dp"
+        android:text="Vs"
+        app:layout_constraintEnd_toStartOf="@+id/octavos_vermundial_2"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_2" />
+
+    <TextView
+        android:id="@+id/octavos_vermundial_2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:padding="15dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="a"
+        android:hint="Selección"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_2" />
+
+
+    <TextView
+        android:id="@+id/octavos_vermundial_3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:text="a"
+        android:hint="Selección"
+        app:layout_constraintEnd_toStartOf="@+id/texto_vermundial_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_2" />
+
+    <TextView
+        android:id="@+id/octavos_vermundial_4"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:text="a"
+        android:hint="Selección"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_vermundial_2" />
+
+    <TextView
+        android:id="@+id/marcador_octavos_vermundial_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:padding="15dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_vermundial_1" />
+
+    <TextView
+        android:id="@+id/marcador_octavos_vermundial_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/marcador_octavos_vermundial_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_vermundial_1"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <TextView
+        android:id="@+id/marcador_octavos_vermundial_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="12dp"
+        android:padding="15dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/marcador_octavos_vermundial_1"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_vermundial_2" />
+
+    <TextView
+        android:id="@+id/marcador_octavos_vermundial_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="15dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/marcador_octavos_vermundial_1"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_vermundial_2"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <Button
+        android:id="@+id/boton_siguiente_vermundial_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginEnd="80dp"
+        android:text="siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/texto_vermundial_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

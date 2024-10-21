@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/texto_cuartos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro_mundial">
+
+
+    <TextView
+        android:id="@+id/texto_registro_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Fase de Grupos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tabla_grupo"
+        android:layout_width="409dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="248dp"
+        android:padding="16dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_1"
+        app:layout_constraintVertical_bias="0.266">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jugador" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selección" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puntos" />
+        </TableRow>
+
+        <!-- Fila 2 -->
+        <TableRow>
+
+            <EditText
+                android:id="@+id/jugador1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/seleccion1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/pts1"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+        </TableRow>
+
+        <!-- Fila 3 -->
+        <TableRow>
+
+            <EditText
+                android:id="@+id/jugador2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/seleccion2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/pts2"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+        </TableRow>
+
+        <!-- Fila 4 -->
+        <TableRow>
+
+            <EditText
+                android:id="@+id/jugador3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/seleccion3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/pts3"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+        </TableRow>
+
+        <!-- Fila 5 -->
+        <TableRow>
+
+            <EditText
+                android:id="@+id/jugador4"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/seleccion4"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+
+            <EditText
+                android:id="@+id/pts4"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Celda 1-1"
+                android:padding="8dp"
+                android:text=" " />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/texto_registro_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Octavos de Final"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabla_grupo" />
+
+    <EditText
+        android:id="@+id/octavos_1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+
+        android:padding="15dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="Selección"
+        app:layout_constraintEnd_toStartOf="@+id/texto_registro_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_2" />
+
+    <TextView
+        android:id="@+id/texto_registro_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Vs"
+        app:layout_constraintEnd_toStartOf="@+id/octavos_2"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_2" />
+
+    <TextView
+        android:id="@+id/texto_registro_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="12dp"
+        android:text="Vs"
+        app:layout_constraintEnd_toStartOf="@+id/octavos_2"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_2" />
+
+    <EditText
+        android:id="@+id/octavos_2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:padding="15dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="Selección"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_2" />
+
+
+    <EditText
+        android:id="@+id/octavos_3"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:text=""
+        android:hint="Selección"
+        app:layout_constraintEnd_toStartOf="@+id/texto_registro_3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_2" />
+
+    <EditText
+        android:id="@+id/octavos_4"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="15dp"
+        android:text=""
+        android:hint="Selección"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_registro_2" />
+
+    <EditText
+        android:id="@+id/marcador_octavos_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:padding="15dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_1" />
+
+    <EditText
+        android:id="@+id/marcador_octavos_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/marcador_octavos_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_1"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <EditText
+        android:id="@+id/marcador_octavos_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="12dp"
+        android:padding="15dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/marcador_octavos_1"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_2" />
+
+    <EditText
+        android:id="@+id/marcador_octavos_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="15dp"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/marcador_octavos_1"
+        app:layout_constraintTop_toBottomOf="@+id/octavos_2"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <Button
+        android:id="@+id/boton_siguiente_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginEnd="79dp"
+        android:text="siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/texto_registro_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
